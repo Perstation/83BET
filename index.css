@@ -15,6 +15,15 @@ body {
   align-items: center;
   justify-content: flex-end;
 }
+.wrapper {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.wrapper.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 .btn-container {
   padding-bottom: 4.918%;
 }
