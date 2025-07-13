@@ -60,6 +60,8 @@ body {
 @media (max-width: 768px) {
   body {
     background-image: url('./images/background-mobile.jpeg');
+    height: 100svh;
+    background-position: top;
   }
   .wrapper {
     top: 25.9765vw;
